@@ -1,5 +1,5 @@
 import React from "react";
-// import axios from "axios";
+import axios from "axios";
 
 class Airline extends React.Component{
     state = {
@@ -8,6 +8,10 @@ class Airline extends React.Component{
         statusAirline:"active",
         nameCountry:"",
         userId: this.props.id._id
+    }
+    handleClickeEvent(e){
+        e.preventDefault();
+        const data = this.state;
     }
 
 }

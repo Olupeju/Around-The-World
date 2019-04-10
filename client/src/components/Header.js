@@ -1,5 +1,5 @@
 import React from "react";
-import './Header.css';
+import  "./Header.css";
 // import {Animated} from "react-animated-css";
 
 class Header extends React.Component{
@@ -9,7 +9,7 @@ class Header extends React.Component{
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
-                    <h1> Around The World</h1>
+                    <h1 className = "logo"> Around The World</h1>
                         {/* <h1 className="logo"><i className="fas fa-pepper-hot"></i> Around The World</h1> */}
                     </div>
                 </div>
